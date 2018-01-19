@@ -94,7 +94,7 @@ a > i {
 }
 
 #store-button {
-    background-color: #FFDF00;
+    background-color: #32e800;
     color: white;
     padding: 3px 6px;
     margin-top: 5px;
@@ -148,11 +148,11 @@ a > i {
 }
 
 #store-button:hover {
-    background-color: #FFD700;
+    background-color: #36ff00;
 }
 
 #store-button:active {
-    background-color: #FFD700;
+    background-color: #32e800;
     color: whitesmoke;
 }
 
@@ -192,11 +192,11 @@ a > i {
 }
 
 .btn-primary:hover {
-    background-color: #FFD700;
+    background-color: #36ff00;
 }
 
 .btn-primary:active, .btn-primary:focus {
-    background-color: #FFD700 !important;
+    background-color: #32e800 !important;
     color: whitesmoke;
 }
 
