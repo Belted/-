@@ -60,7 +60,7 @@ body {
 
 .navbar-fixed-bottom {
     min-height: 70px;
-    background: rgba(0, 0, 0, 0.6)
+    background: rgba(0, 0, 0, 0.5)
 }
 
 #footer-overlay {
@@ -94,7 +94,7 @@ a > i {
 }
 
 #store-button {
-    background-color: #32e800;
+    background-color: #3498db;
     color: white;
     padding: 3px 6px;
     margin-top: 5px;
@@ -148,11 +148,11 @@ a > i {
 }
 
 #store-button:hover {
-    background-color: #36ff00;
+    background-color: #39a5ed;
 }
 
 #store-button:active {
-    background-color: #32e800;
+    background-color: #3393d4;
     color: whitesmoke;
 }
 
@@ -173,7 +173,6 @@ a > i {
 
 .navbar-form {
     padding: 0;
-    color: black;
 }
 
 .btn {
@@ -192,11 +191,11 @@ a > i {
 }
 
 .btn-primary:hover {
-    background-color: #36ff00;
+    background-color: #39a5ed;
 }
 
 .btn-primary:active, .btn-primary:focus {
-    background-color: #32e800 !important;
+    background-color: #3393d4 !important;
     color: whitesmoke;
 }
 
