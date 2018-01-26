@@ -44,6 +44,20 @@ body {
   display: inline;
   color: whitesmoke;
 }
+video {
+    position: fixed;
+    top: 50%;
+    left: 50%;
+    min-width: 100%;
+    min-height: 100%;
+    width: auto;
+    height: auto;
+    z-index: -100;
+    transform: translateX(-50%) translateY(-50%);
+    background-size: cover;
+    volume: 50%;
+    transition: 1s opacity;
+}
 
 #content p strong {
   font-weight: 500;
@@ -60,7 +74,7 @@ body {
 
 .navbar-fixed-bottom {
     min-height: 70px;
-    background: rgba(0, 0, 0, 0.5)
+    background: rgba(0, 0, 0, 0.6)
 }
 
 #footer-overlay {
@@ -94,7 +108,7 @@ a > i {
 }
 
 #store-button {
-    background-color: #3498db;
+    background-color: #FFDF00;
     color: white;
     padding: 3px 6px;
     margin-top: 5px;
@@ -148,11 +162,11 @@ a > i {
 }
 
 #store-button:hover {
-    background-color: #39a5ed;
+    background-color: #FFD700;
 }
 
 #store-button:active {
-    background-color: #3393d4;
+    background-color: #FFD700;
     color: whitesmoke;
 }
 
@@ -173,6 +187,7 @@ a > i {
 
 .navbar-form {
     padding: 0;
+    color: black;
 }
 
 .btn {
@@ -191,11 +206,11 @@ a > i {
 }
 
 .btn-primary:hover {
-    background-color: #39a5ed;
+    background-color: #FFD700;
 }
 
 .btn-primary:active, .btn-primary:focus {
-    background-color: #3393d4 !important;
+    background-color: #FFD700 !important;
     color: whitesmoke;
 }
 
