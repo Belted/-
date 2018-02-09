@@ -18,6 +18,10 @@ body {
     font-weight: 300;
 }
 
+.nav li {
+ display: inline;
+}
+
 #content {
   position: absolute;
   top: 25%;
