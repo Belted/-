@@ -112,7 +112,7 @@ a > i {
 }
 
 #store-button {
-    background-color: #FFDF00;
+    background-color: #FFFFFF;
     color: white;
     padding: 3px 6px;
     margin-top: 5px;
@@ -166,11 +166,11 @@ a > i {
 }
 
 #store-button:hover {
-    background-color: #FFD700;
+    background-color: #F9F9F9;
 }
 
 #store-button:active {
-    background-color: #FFD700;
+    background-color: #F9F9F9;
     color: whitesmoke;
 }
 
