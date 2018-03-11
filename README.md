@@ -1,2 +1,2 @@
-# Kohi
-Kohi, easy!
+# Whyware
+Simplify your life.
