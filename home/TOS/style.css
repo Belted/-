@@ -1,5 +1,5 @@
 body {
-    @import url("https://fonts.googleapis.com/css?family=Roboto:300,400,500,700,900");.social-networks,
+    font-family: 'Roboto', sans-serif;
     background-image: url('background.jpg');
     background-position: center;
     background-size: cover;
