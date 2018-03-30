@@ -237,6 +237,143 @@ input.form-control, input.form-control:focus {
     color: #444444 !important;
     z-index: -1;
 }
+.main-block .main-block-holder {
+	text-align: center;
+	color: #fff;
+	text-shadow: 0 1px 1px rgba(0, 0, 0, .25);
+	font-size: 26px;
+	padding: 10px;
+}
+
+.main-block .main-block-holder img {
+	width: 99px;
+	height: auto;
+	display: block;
+	margin: 0 auto 8px;
+}
+
+.main-block h1 {
+	font-size: 49px;
+	color: #fff;
+	font-weight: 300;
+	margin: 0 0 -6px;
+}
+
+.main-block p {
+	margin: 0 0 5px;
+}
+
+.main-block p b {
+	font-weight: 500;
+}
+
+.main-block .press {
+	display: block;
+	text-transform: uppercase;
+	font-size: 11px;
+	color: #fff;
+	opacity: .29;
+	font-weight: bold;
+	letter-spacing: 2px;
+	margin: 0 0 20px;
+}
+
+.download {
+	width: 134px;
+	height: 134px;
+	border: 17px solid rgba(255, 255, 255, .05);
+	display: block;
+	margin: 0 auto;
+	border-radius: 100%;
+	color: #fff;
+	text-decoration: none;
+	text-shadow: 0 1px 1px rgba(0, 0, 0, .25);
+	font-size: 36px;
+}
+
+.download:hover {
+	opacity: .9;
+	color: #fff;
+	text-decoration: none;
+}
+
+.download i {
+	opacity: 0.7;
+}
+
+.download .circle {
+	display: block;
+	border: 6px solid #fff;
+	border-radius: 100%;
+	width: 100px;
+	height: 100px;
+}
+
+.download .circle span {    
+	background: #c1c1c1;
+	box-shadow: 0 0 0 1px #d8d8d8 inset;
+	display: -webkit-box;
+	display: -ms-flexbox;
+	display: flex;
+	-webkit-box-orient: vertical;
+	-webkit-box-direction: normal;
+	-ms-flex-direction: column;
+	flex-direction: column;
+	-ms-flex-wrap: nowrap;
+	flex-wrap: nowrap;
+	-webkit-box-pack: center;
+	-ms-flex-pack: center;
+	justify-content: center;
+	-ms-flex-line-pack: stretch;
+	align-content: stretch;
+	-webkit-box-align: center;
+	-ms-flex-align: center;
+	align-items: center;
+	border: 1px solid #cccccc;
+	width: 88px;
+	height: 88px;
+	border-radius: 100%;
+}
+
+.main-container {
+	background: #fff;
+	border-radius: 5px;
+	box-shadow: 0 0 1px rgba(0, 0, 0, .33);
+	padding: 0 40px 20px;
+	max-width: 932px;
+	margin: 0 auto;
+	padding: 33px 40px 20px;
+	position: relative;
+	min-height: calc(100vh - 180px);
+}
+
+.main-container:after {
+	content: "";
+	position: absolute;
+	left: 0;
+	bottom: 0;
+	height: 18px;
+	width: 100%;
+	background-color: #e5e5e5;
+	border-radius: 0 0 5px 5px;
+	border-top: 1px solid #dedede;
+	box-shadow: 0 0 1px rgba(0, 0, 0, .33);
+}
+
+h1 {
+	text-align: center;
+	margin: 0 0 25px;
+}
+
+h1 span {
+	font-size: 9px;
+	line-height: 11px;
+	display: block;
+	font-weight: 900;
+	color: rgba(131, 131, 131, .47);
+	letter-spacing: 1px;
+	margin-bottom: -4px;
+}
 
 .footer .navbar-brand > img {
     display: inline-block;
