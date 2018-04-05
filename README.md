@@ -1,2 +1,2 @@
 # Whyware
-Simplify your life.
+Owned by Darren Yang
