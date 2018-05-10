@@ -48,20 +48,6 @@ body {
   display: inline;
   color: whitesmoke;
 }
-video {
-    position: fixed;
-    top: 50%;
-    left: 50%;
-    min-width: 100%;
-    min-height: 100%;
-    width: auto;
-    height: auto;
-    z-index: -100;
-    transform: translateX(-50%) translateY(-50%);
-    background-size: cover;
-    volume: 50%;
-    transition: 1s opacity;
-}
 
 #content p strong {
   font-weight: 500;
@@ -111,69 +97,6 @@ a > i {
 .navbar-default {
 }
 
-#store-button {
-    background-color: #FFFFFF;
-    color: white;
-    padding: 3px 6px;
-    margin-top: 5px;
-    margin-right: 10px;
-    text-transform: lowercase;
-    text-shadow: 0 2px 0 rgba(0, 0, 0, 0.25);
-    border: none;
-    box-shadow: inset 0px 0px 0px 1px rgba(0, 0, 0, 0.32), inset 0 0 0 2px rgba(255, 255, 255, 0.19);
-    min-width: 72px;
-}
-
-.navbar .btn-group {
-    margin-bottom: 0;
-    margin-left: 10px;
-}
-
-.navbar .btn-group .btn {
-    height: 25px;
-    padding: 3px 6px;
-}
-
-.btn-group .btn {
-    box-shadow: none;
-    background-color: #f7f7f7;
-}
-
-.btn-group .btn {
-    border: 1px solid #d2d2d2;
-}
-
-.btn-group .btn:first-child {
-    border-left: none;
-    border-top: none;
-    border-bottom: none;
-    box-shadow: inset 0px 0px 0px 1px rgba(0,0,0,0.32), inset 0 0 0 2px rgba(255, 255, 255, 0.19);
-}
-
-.btn-group .btn-group .btn {
-    border: 1px solid #d2d2d2;
-    box-shadow: none;
-}
-
-.btn-group .btn:nth-child(2) {
-    padding-left: 8px;
-    padding-right: 8px;
-}
-
-.navbar .caret {
-    margin-top: -2px;
-    color: #707070;
-}
-
-#store-button:hover {
-    background-color: #F9F9F9;
-}
-
-#store-button:active {
-    background-color: #F9F9F9;
-    color: whitesmoke;
-}
-
 .navbar input {
     height: 25px;
     margin-top: 6px;
@@ -192,30 +115,6 @@ a > i {
 .navbar-form {
     padding: 0;
     color: black;
-}
-
-.btn {
-    text-shadow: 0 2px 0 rgba(0, 0, 0, 0.25);
-    border: none;
-    box-shadow: inset 0px 0px 0px 1px rgba(0,0,0,0.32), inset 0 0 0 2px rgba(255, 255, 255, 0.19);
-    text-transform: lowercase;
-}
-
-.btn-danger {
-    background-color: #E74C3C;
-}
-
-.btn-primary {
-    background-color: #3498db;
-}
-
-.btn-primary:hover {
-    background-color: #FFD700;
-}
-
-.btn-primary:active, .btn-primary:focus {
-    background-color: #FFD700 !important;
-    color: whitesmoke;
 }
 
 input.form-control, input.form-control:focus {
